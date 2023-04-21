@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fish']
+
+roboflow:
+  workspace: han-chen-aytos
+  project: fish-h4yvq
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/han-chen-aytos/fish-h4yvq/dataset/10
